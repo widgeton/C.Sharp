@@ -162,6 +162,7 @@ for (;;)
         else if (num[i] == ':') figure = twoDots;
         number = ComposeMatrices(number, figure);
     }
+
     ShowMatrix(number);
     System.Threading.Thread.Sleep(1000);
     number = nullMatrix;

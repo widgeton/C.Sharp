@@ -1,2 +1,2 @@
 ﻿
-Console.WriteLine(123<<2);
+string time1 = DateTime.Now.ToString("o");
